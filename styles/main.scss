@@ -28,7 +28,9 @@
     background-image: url(../images/city.png);
     background-position: center;
     background-size: cover; 
-    flex-direction: row;   
+    display: flex;
+    flex-direction: row;
+    position: relative;   
 } 
 .container-three {
     max-width: 1400px;
@@ -37,7 +39,8 @@
     padding: 5px;
     background-image: url(../images/house.png);
     background-position: center;
-    background-size: cover;    
+    background-size: cover; 
+    display: flex;   
 }
 .container-four {
     max-width: 1400px;
@@ -46,7 +49,8 @@
     padding: 5px;
     background-image: url(../images/sea.png);
     background-position: center;
-    background-size: cover;    
+    background-size: cover; 
+    display: flex;   
 }
 .container-five {
     max-width: 1400px;
@@ -55,7 +59,8 @@
     padding: 5px;
     background-image: url(../images/hiker.png);
     background-position: center;
-    background-size: cover;    
+    background-size: cover; 
+    display: flex;   
 }
 .search-bar {
     width: 100%;     
@@ -97,6 +102,14 @@ input:hover {
     background: wheat;
     transition: .5s;
 }
+
+img.small {
+    margin: 5px;
+    position: relative;
+    left: 30px;
+}
+
+
 
 
 

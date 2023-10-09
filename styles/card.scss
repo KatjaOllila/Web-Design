@@ -6,15 +6,26 @@
     align-content: flex-start;
 
 }
-.container-two_card-one {
-    width: 60%;
+.container-two_card-one {    
+    width: 50%;
+    min-height: 500px;
     display: flex;
     flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+   
 
 }
 .container-two_card-two {
-    width: 40%;
+    width: 50%;
+    min-height: 500px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    position: relative; 
+    align-items: center;  
+    justify-content: center;     
+    border: 1px solid black;
     
 }
