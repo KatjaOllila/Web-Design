@@ -17,7 +17,8 @@
     background-size: cover;
     display: flex;  
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
+    flex-direction: column;  
 }
 .container-two {
     max-width: 1400px;
@@ -87,5 +88,6 @@
     align-items: center;
     justify-content: center;
 }
+
 
 
