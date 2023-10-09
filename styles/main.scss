@@ -40,7 +40,11 @@
     background-image: url(../images/house.png);
     background-position: center;
     background-size: cover; 
-    display: flex;   
+    display: flex;  
+    align-items: flex-end; 
+    padding-left: 30px;
+    padding-bottom: 30px;
+
 }
 .container-four {
     max-width: 1400px;
@@ -50,7 +54,11 @@
     background-image: url(../images/sea.png);
     background-position: center;
     background-size: cover; 
-    display: flex;   
+    display: flex;
+    align-items: flex-end; 
+    justify-content: flex-end;
+    padding-right: 30px;
+    padding-bottom: 30px;  
 }
 .container-five {
     max-width: 1400px;
@@ -60,7 +68,8 @@
     background-image: url(../images/hiker.png);
     background-position: center;
     background-size: cover; 
-    display: flex;   
+    display: flex; 
+    flex-direction: column;  
 }
 .search-bar {
     width: 100%;     
