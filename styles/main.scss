@@ -14,7 +14,10 @@
     padding: 5px;
     background-image: url(../images/mountains.png);
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
+    display: flex;  
+    align-items: center;
+    justify-content: center;  
 }
 .container-two {
     max-width: 1400px;
@@ -51,4 +54,11 @@
     background-image: url(../images/hiker.png);
     background-position: center;
     background-size: cover;    
+}
+.search-bar {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
 }
