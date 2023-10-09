@@ -88,6 +88,14 @@
     align-items: center;
     justify-content: center;
 }
+button:hover {
+    background: rgb(84, 84, 243);
+    transition: .5s;
+}
+input:hover {
+    background: wheat;
+    transition: .5s;
+}
 
 
 

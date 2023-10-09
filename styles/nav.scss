@@ -13,7 +13,11 @@ li {
 nav {
     background: #5474FD;
     height: 80px;
-    width: 100%;
+    width: 100%;  
+    padding-left: 20px; 
+    padding-right: 20px;
+    position: relative; 
+    margin-bottom: 0;
 
 }
 label.logo {
@@ -24,6 +28,10 @@ label.logo {
     line-height: 26px;
     letter-spacing: 2.4000000953674316px;
     text-align: left;
+    position: relative;
+    top: 30px;
+    left: 30px;
+
 
 }
 nav ul {
@@ -42,6 +50,6 @@ ul li a {
     
 }
 a:hover {
-    background: rgb(29, 29, 175);
+    background: rgb(84, 84, 243);
     transition: .5s;
 }
