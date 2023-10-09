@@ -1,0 +1,40 @@
+li {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Aleo';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white
+    
+}
+nav {
+    background: #5474FD;
+    height: 80px;
+    width: 100%;
+
+}
+label.logo {
+    color: white;
+    font-family: 'Josefin Sans';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2.4000000953674316px;
+    text-align: left;
+
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+ul li a {
+    text-transform: uppercase;
+    
+}
