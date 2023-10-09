@@ -13,10 +13,8 @@
     flex-direction: column;
     position: relative;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
     border: 1px solid red;
-   
-
 }
 .container-two_card-two {
     width: 50%;
@@ -28,4 +26,13 @@
     justify-content: center;     
     border: 1px solid black;
     
+}
+.container-one_text-box {
+    width: 100%;
+    display: flex;
+    margin-left: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid black;
+
 }
