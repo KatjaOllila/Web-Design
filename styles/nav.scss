@@ -33,8 +33,15 @@ nav ul {
 nav ul li {
     display: inline-block;
     line-height: 80px;
+    margin: 0 5px;
 }
 ul li a {
     text-transform: uppercase;
+    text-decoration: none;
+    color: white
     
+}
+a:hover {
+    background: rgb(29, 29, 175);
+    transition: .5s;
 }
