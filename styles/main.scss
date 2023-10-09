@@ -56,9 +56,36 @@
     background-size: cover;    
 }
 .search-bar {
-    width: 100%;
-    max-width: 700px;
+    width: 100%;     
+    max-width: 600px;
     display: flex;
     align-items: center;
     padding: 10px 20px;
 }
+.search-bar input {
+    background: white;
+    max-width: 700px;
+    height: 63px;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    text-align: center;
+}
+.search-bar img {
+    margin: 5px;
+}
+.search-bar button {
+    max-width:153px;
+    width: 153px;
+    height: 63px;
+    border: 0;    
+    background-color: #5474FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
