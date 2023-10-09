@@ -27,7 +27,8 @@
     padding: 5px;
     background-image: url(../images/city.png);
     background-position: center;
-    background-size: cover;    
+    background-size: cover; 
+    flex-direction: row;   
 } 
 .container-three {
     max-width: 1400px;

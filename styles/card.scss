@@ -6,3 +6,15 @@
     align-content: flex-start;
 
 }
+.container-two_card-one {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+}
+.container-two_card-two {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    
+}

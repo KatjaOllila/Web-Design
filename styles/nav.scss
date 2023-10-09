@@ -17,7 +17,6 @@ nav {
     padding-left: 20px; 
     padding-right: 20px;
     position: relative; 
-    margin-bottom: 0;
 
 }
 label.logo {
@@ -31,8 +30,6 @@ label.logo {
     position: relative;
     top: 30px;
     left: 30px;
-
-
 }
 nav ul {
     float: right;
@@ -42,6 +39,7 @@ nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
+    flex-wrap: wrap;
 }
 ul li a {
     text-transform: uppercase;
@@ -53,3 +51,8 @@ a:hover {
     background: rgb(84, 84, 243);
     transition: .5s;
 }
+@media screen and (max-width: 600px) {
+    ul.nav li.right, 
+    ul.nav li {float: none;}
+  } 
+ 
